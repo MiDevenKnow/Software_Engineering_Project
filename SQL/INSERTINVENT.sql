@@ -1,0 +1,17 @@
+USE INVENTORY;
+INSERT INTO ITEMS (name_item, selling_price, cost_price, quantity_instock, supplier, quantity_sold,perishable) VALUES ('Orange Juice', '120', '100', '30', 'Tru Juice','10','0');
+INSERT INTO ITEMS (name_item, selling_price, cost_price, quantity_instock, supplier, quantity_sold,perishable) VALUES ('Squeeze', '70', '50', '48', 'WYSNCO','22','0');
+INSERT INTO ITEMS (name_item, selling_price, cost_price, quantity_instock, supplier, quantity_sold,perishable) VALUES ('Super Kidz', '60', '40', '24', 'Island Breeze','10','0');
+INSERT INTO ITEMS (name_item, selling_price, cost_price, quantity_instock, supplier, quantity_sold,perishable) VALUES ('Icool', '100', '75', '15', 'Lasco','7','0');
+INSERT INTO ITEMS (name_item, selling_price, cost_price, quantity_instock, supplier, quantity_sold,perishable) VALUES ('Coca Cola', '60', '45', '36', 'Coca Cola JA','12','0');
+INSERT INTO ITEMS (name_item, selling_price, cost_price, quantity_instock, supplier, quantity_sold,perishable) VALUES ('Sprite', '60', '40', '30', 'Coca Cola JA','15','0');
+INSERT INTO ITEMS (name_item, selling_price, cost_price, quantity_instock, supplier, quantity_sold,perishable) VALUES ('Bread', '360', '290', '15', 'Nationals','5','0');
+INSERT INTO ITEMS (name_item, selling_price, cost_price, quantity_instock, supplier, quantity_sold,perishable) VALUES ('Big Foot', '60', '40', '11', 'Holidays','13','0');
+INSERT INTO ITEMS (name_item, selling_price, cost_price, quantity_instock, supplier, quantity_sold,perishable) VALUES ('Snackables', '60', '50', '32', 'Butterkist','4','0');
+INSERT INTO ITEMS (name_item, selling_price, cost_price, quantity_instock, supplier, quantity_sold,perishable) VALUES ('Cheese Curls', '65', '55', '27', 'Sunshine','6','0');
+INSERT INTO ITEMS (name_item, selling_price, cost_price, quantity_instock, supplier, quantity_sold,perishable) VALUES ('Mackerel', '120', '90', '15', 'Grace','9','1');
+INSERT INTO ITEMS (name_item, selling_price, cost_price, quantity_instock, supplier, quantity_sold,perishable) VALUES ('Sardine', '120', '100', '10', 'Lasco','10','0');
+INSERT INTO ITEMS (name_item, selling_price, cost_price, quantity_instock, supplier, quantity_sold,perishable) VALUES ('Tissue', '90', '75', '15', 'N/A','5','0');
+INSERT INTO ITEMS (name_item, selling_price, cost_price, quantity_instock, supplier, quantity_sold,perishable) VALUES ('Bathing Soap', '130', '100', '20', 'N/A','4','0');
+INSERT INTO ITEMS (name_item, selling_price, cost_price, quantity_instock, supplier, quantity_sold,perishable) VALUES ('Chicken', '240', '200', '30', 'CB','15','1');
+INSERT INTO ITEMS (name_item, selling_price, cost_price, quantity_instock, supplier, quantity_sold,perishable) VALUES ('Oxtail', '660', '590', '20', 'N/A','10','2');

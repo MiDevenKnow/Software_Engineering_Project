@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MAMA B'S ONLINE WHOLESALE</title>
+    <link rel="stylesheet" href="../CSS/login.css" />
+    <script src="../JS/login.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>MAMA B'S WHOLESALE</h1>
+        <h3>GROCERIES ONLINE STORE</h3>
+    </header>
+    <div class="loginInfo" id="loginInfo">
+        <img src="person-icon.png" alt="Person Icon">
+        <h2>SIGN IN</h2>
+        <form method="POST" action="http://localhost/Swen_project1/PHP/login.php">
+            <label>USERNAME:</label>
+            <p class="usernameError" id="usernameError"> </p>
+            <input type="text" name="username" id="username1" placeholder="Enter Username" required>
+            <label>PASSWORD:</label>
+            <p class="passwordError" id="passwordError"> </p>
+            <input type="password" name="password" id="password" placeholder="Enter password" required>
+            <button class="loginButton" id="custButton">CUSTOMER</button>
+        </form>
+        <div class="createDiv" id="createDiv">
+            <p>Don't have an account?</p>
+            <P>Click the link below to create one.</P>
+            <a href="../HTML/createaccount.html">CREATE ACCOUNT</a>
+            <p>Are you an Administrator?</p>
+            <P>Click the link below to login.</P>
+            <a href="../HTML/Adminlogin.html">ADMINISTRATOR</a>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,99 @@
+body{
+    background: url(background.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+header{
+    grid-area: 1;
+    background-color: rgb(49, 65, 73);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+#loginInfo{
+    background-color:  rgba(245, 223, 223, 0.9);
+    width: 400px;
+    height: 850px;
+    top: 30%;
+    right: 40%;
+    position: absolute;
+    border-radius: 15px;
+} 
+
+label{
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+img{
+    width: 120px;
+    height: 100px;
+    border-radius: 100%;
+    border: 5px solid black;
+   position: absolute;
+   top: 2%;
+   left: 30%;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    top: 15%;
+    left: 15%;
+    position: absolute;
+}
+
+form{
+    padding: 10px;
+    top: 25%;
+    position: absolute;
+    border-bottom: 2px solid black;
+}
+
+input, button{
+    display: flex;
+    flex-direction: row;
+}
+
+input{
+    padding: 10px;
+    width: 350px;
+    margin: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid black;   
+}
+
+input:hover{
+    background-color: rgb(221, 255, 252);
+}
+
+button{
+    padding: 8px;
+    margin: 8px;
+    margin-bottom: 20px;
+    justify-content: center;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    width: 350px;
+    background-color: rgb(9, 9, 70);
+    color: white;
+}
+
+button:hover{
+    background-color: red;
+}
+
+a:hover{
+    color: red;
+}
+
+#loginDiv{
+    padding: 10px;
+    bottom: 5%;
+    position: absolute;
+}

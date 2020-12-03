@@ -1,0 +1,70 @@
+body {
+    margin-top: 0;
+    margin: auto;
+    height: 100%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    grid-area: 1;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: yellow;
+}
+
+main h3,
+main h4 {
+    margin-top: 0%;
+    text-align: center;
+    text-shadow: 1px 1px blue;
+}
+
+h2 {
+    text-decoration: underline;
+    text-shadow: 2px 2px blue;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+th {
+    border: 3px solid black;
+}
+
+
+.Calculations {
+    text-align: left;
+    margin-left: 70%;
+    font-weight: bolder;
+    color: red;
+}
+
+h5 {
+    text-decoration: underline;
+    color: black;
+}
+
+footer {
+    font-style: italic;
+    color: white;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}

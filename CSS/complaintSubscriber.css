@@ -1,0 +1,93 @@
+body {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    background-color: rgb(179, 225, 247);
+}
+
+a {
+    padding: 20px;
+}
+
+header {
+    grid-area: 1;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header h3 {
+    font-size: 20px;
+}
+
+header a {
+    color: white;
+}
+
+header a:hover {
+    color: yellow;
+}
+
+.Complaints {
+    display: block;
+    grid-area: 3;
+    background-color: rgb(179, 225, 247);
+    /* text-align: center; */
+}
+
+.Complaints div input {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    padding-right: 185px;
+    margin: 10px;
+}
+
+#complaintsInput {
+    /* display: block; */
+    vertical-align: middle;
+}
+
+.Complaints div textarea {
+    padding: 100px;
+    margin: 10px;
+    text-align: left;
+}
+
+.Subscribe {
+    grid-area: 4;
+    background-color: rgb(179, 225, 247);
+}
+
+.Subscribe div input {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    padding-right: 100px;
+    margin: 10px;
+}
+
+.SubscribeButton {
+    padding: 5px;
+    margin: 10px;
+    background-color: darkslateblue;
+    color: white;
+    text-align: center;
+}
+
+.ComplaintButton {
+    padding: 5px;
+    margin: 10px;
+    background-color: darkslateblue;
+    color: white;
+    text-align: center;
+}
+
+a {
+    padding: 20px;
+}

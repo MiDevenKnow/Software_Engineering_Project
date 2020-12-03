@@ -1,0 +1,94 @@
+body {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    background-color: rgb(179, 225, 247);
+}
+
+header {
+    grid-area: 1;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header h3 {
+    font-size: 20px;
+}
+
+.Shopping {
+    grid-area: 2;
+    background-color: rgb(179, 225, 247);
+    text-align: center;
+}
+
+.Shopping #items {
+    padding: 10px;
+    padding-right: 500px;
+    margin-right: 20px;
+}
+
+.Shopping #items:hover {
+    border-color: rgb(39, 3, 85);
+    background-color: rgb(221, 255, 252);
+}
+
+.Shopping ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.Shopping li,
+h4 {
+    text-align: left;
+}
+
+.Shopping button {
+    padding: 10px;
+    background-color: rgb(7, 7, 97);
+    color: white;
+    border-radius: 5px;
+}
+
+.Shopping button:hover {
+    background-color: red;
+}
+
+.Shopping h3 {
+    text-align: center;
+    text-shadow: 2px 2px white;
+    font-size: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid black;
+    width: 100%;
+}
+
+table th {
+    text-align: center;
+    background-color: rgb(22, 13, 77);
+    color: white;
+    border: 2px solid black;
+    font-weight: bolder;
+}
+
+table td {
+    text-align: center;
+    border: 2px solid black;
+    font-weight: bolder;
+}
+
+header a {
+    color: white;
+}
+
+header a:hover {
+    color: yellow;
+}

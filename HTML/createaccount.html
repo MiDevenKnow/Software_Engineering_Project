@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MAMA B'S ONLINE WHOLESALE </title>
+    <link rel="stylesheet" href="../CSS/createaccount.css" />
+    <script src="../JS/createaccount.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>MAMA B'S WHOLESALE</h1>
+        <h3>GROCERIES ONLINE STORE</h3>
+    </header>
+    <div class="loginInfo" id="loginInfo">
+        <img src="person-icon.png" alt="Person Icon">
+        <h2>CREATE ACCOUNT</h2>
+        <form action="http://localhost/Swen_project1/PHP/createaccount.php" method="POST">
+            <label>FIRST NAME:</label>
+            <input type="text" name="firstname" id="firstname" placeholder="Enter first name" required>
+            <label>LAST NAME:</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Enter last name" required>
+            <label>EMAIL ADDRESS:</label>
+            <input type="email" name="email" id="email" placeholder="Enter email address" required>
+            <label>USERNAME:</label>
+            <input type="text" name="username" id="username" placeholder="Enter Username" required>
+            <label>PASSWORD:</label>
+            <input type="password" name="password" id="password" placeholder="Enter password" required>
+            <button class="createButton" id="createButton">CREATE</button>
+        </form>
+        <div class="loginDiv" id="loginDiv">
+            <p>Already have an account?</p>
+            <P>Click the link below to login.</P>
+            <a href="../HTML/login.html">LOGIN</a>
+        </div>
+    </div>
+</body>
