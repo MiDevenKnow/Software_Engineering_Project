@@ -58,7 +58,7 @@ if (isset($_POST['ComplaintButton'])) {
                         <input type="text" id="firstname" name="firstname" placeholder="Your first name.." required>
                         <input type="text" id="lastname" name="lastname" placeholder="Your last name.." required>
                         <label id="firstname"for="firstname">Email</label><br>
-                        <input type="text" name="email" id="email" placeholder="Your email address..">                        <br>	
+                        <input type="email" name="email" id="email" placeholder="Your email address..">                        <br>	
                         <label for="subject">Subject</label><br>
                         <textarea id="subject" name="complaints" placeholder="Write complaint here.." style="height:200px" required></textarea><br>
                         <button type="submit" value="cmpt" name="ComplaintButton" class="ComplaintButton">Submit</button>    
